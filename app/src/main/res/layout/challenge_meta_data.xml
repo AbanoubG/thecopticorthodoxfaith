@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/challenge_class"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_weight="1"
+        android:background="@drawable/text_meta_data"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="?android:textColorTertiary" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/challenge_type"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_weight="1"
+        android:background="@drawable/text_meta_data"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="?android:textColorTertiary" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/challenge_category"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/text_meta_data"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="?android:textColorTertiary" />
+</android.support.v7.widget.LinearLayoutCompat>

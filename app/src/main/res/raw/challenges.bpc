@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<categories>
+    <category description="Test your knowledge of some key orthodox concepts" image="@drawable/teal" title="Orthodoxy">
+        <challenge question="Which of the following best describes the Church’s views on the Sacraments?"
+            type="1">
+            <answer correct="true" text="are vessels of the mystical participation in divine grace of mankind." />
+            <answer correct="false" text="are man-made traditions that have nothing to do with salvation." />
+            <answer correct="false" text="are only to be given to those who are holy." />
+            <answer correct="false" text="are not as important as having a relationship with Jesus Christ." />
+        </challenge>
+        <challenge question="Which statement best describes Jesus Christ’s relationship with the Father?" type="1">
+            <answer correct="false" text="Jesus Christ was a man who was used by the Father and made God during his baptism in the Jordan River" />
+            <answer correct="true" text="Jesus Christ is of the same substance of the Father and is co-eternal and co-substantial with the Father." />
+            <answer correct="false" text="Jesus Christ is a Divine person whom the Father used in creating the universe, however there was a time when the Son was not in existence." />
+            <answer correct="false" text="Jesus Christ is of a similar substance of the Father." />
+        </challenge>
+        <challenge question="Which of the following statements best describes the Christology of the Alexandrian Tradition? " type="1">
+            <answer correct="false" text="Jesus Christ is “one nature”, which is made of half humanity and half divinity. A hybrid nature made of mixture." />
+            <answer correct="false" text="Jesus Christ is “one nature”, the Divine nature only, as his human nature was dissolved in the sea of Divinity." />
+            <answer correct="false" text=" Jesus Christ is made of “two separate natures”, so that when He died, only his Human nature died and not his Divinity." />
+            <answer correct="true" text="Jesus Christ is a “union out of, or from, two natures”. His humanity and divinity continue to exist after the union but the two have become one (natural union), without mingling, confusion, alteration, mixture, or separation." />
+        </challenge>
+        <challenge question="Which of the following best describes the Church’s views on the title of Theotokos (Mother of God) for St. Mary?" type="1">
+            <answer correct="false" text="She should be called Mother of Christ and Mother of God because she bore the Logos and the man Jesus." />
+            <answer correct="false" text="She should not be called Theotokos (Mother of God) because God can’t be born. She only bore the man Jesus. " />
+            <answer correct="false" text="She should not be called Theotokos (Mother of God) because the one born of her wasn’t God. " />
+            <answer correct="true" text="She should be called Theotokos (Mother of God) because the one who took flesh from her is God the Word. " />
+        </challenge>
+        <challenge question="Which of the following best describes the goal of the Christian life?"
+            type="1">
+            <answer correct="false" text="to escape hell and damnation, and to be in heaven with God." />
+            <answer correct="false" text="become good people because Christ taught us to love our neighbors." />
+            <answer correct="false" text="to become Gods in essence and populate our own planets." />
+            <answer correct="true" text="to become more like Christ by being participants of the divine nature." />
+        </challenge>
+        <challenge question="Which of the following best describes the Church’s views on the Eucharist?" type="1">
+            <answer correct="false" text="The Eucharist is a symbol of the Body and Blood of Christ." />
+            <answer correct="true" text="The Eucharist is the true Body and Blood of Christ, which is celebrated in the divine Liturgy." />
+            <answer correct="false" text="The Eucharist is the true Body and Blood of Christ, only when the priest preceding over the Eucharist is worthy and not a sinner." />
+            <answer correct="false" text="The Eucharist is the true Body and Blood of Christ, only when the believer receiving it believes so." />
+        </challenge>
+        <challenge question="Which of the following best describes the Church’s view on Faith, Works, and Salvation?" type="1">
+            <answer correct="true" text="The believer is supposed to respond to the works of salvation and grace of God by being co-workers in synergy with His grace." />
+            <answer correct="false" text="The believer is supposed to trust in the works of Christ alone, and depend on His Grace alone." />
+            <answer correct="false" text="The believer is supposed to work out his salvation and have the grace of God respond to him." />
+            <answer correct="false" text="The believer is supposed to work out his salvation with fear and trembling without the grace of God." />
+        </challenge>
+        <challenge question="Which of the following best describes the Church’s view on Eschatology-the end times?"
+            type="1">
+            <answer correct="false" text="Jesus is coming back to rapture and carry up the believers before the final tribulations." />
+            <answer correct="true" text="Jesus is coming back in his glory to judge the living and the dead, whose kingdom shall have no end." />
+            <answer correct="false" text="Jesus has already returned in the hearts of all believers." />
+            <answer correct="false" text="Jesus is coming back to reign on the earth for a literal 1,000 years before taking up the believers into heaven." />
+        </challenge>
+        <challenge question=" Which of the following best describes the work of Salvation in the life of Jesus Christ’s- Soteriology? "
+            type="1">
+            <answer correct="false" text="Jesus Christ was sent by the Father in order to die a cruel and horrible death, so as to satisfy the righteous wrath that the Father had with humanity. Only the work on the cross is of importance." />
+            <answer correct="true" text="Jesus Christ came to defeat death by his death, by uniting his divine nature with our human nature and blessing our nature within him. All the works of Christ during his life were for our salvation." />
+            <answer correct="false" text="Jesus Christ was sent to be a good moral teacher in order to teach us to be good moral creatures." />
+            <answer correct="false" text=" Jesus Christ came to repair the broken honor of the Father that was taken away from Him when humanity fell and sinned." />
+        </challenge>
+        <challenge question=" Which statement best describes the union of the humanity and divinity when Christ is walking on the water? "
+            type="1">
+            <answer correct="false" text="When Christ is walking on the water, it is his hybrid nature in which he is using half his humanity and half his divinity." />
+            <answer correct="true" text="When Christ is walking on the water, it is both his natures because it is the Incarnate Word who is walking, for “it is foreign for humanity to walk on water and it is not proper for divinity to use feet.”" />
+            <answer correct="false" text="When Christ is walking on the water, it is his humanity only because it his human nature which was seen by his disciples." />
+            <answer correct="false" text=" When Christ is walking on the water, it is the Divine nature only since this is clearly the work of the divine power of God." />
+        </challenge>
+
+        <challenge question="Which of the following best describes the death of Christ on the Cross? "
+            type="3">
+            <answer correct="true" text="God the Word died on the cross in the flesh" />
+        </challenge>
+    </category>
+
+
+    <category description="Test your knowledge of the New Testament" image="@drawable/red" title="The New Testament">
+        <challenge question="In which epistle did St. Paul combat the idea of Gnosticism?"
+            type="1">
+            <answer correct="false" text="Ephesians" />
+            <answer correct="true" text="Colossians" />
+            <answer correct="false" text="Philippians" />
+            <answer correct="false" text="Philemon" />
+        </challenge>
+        <challenge question="What does Christ mean?"
+            type="1">
+            <answer correct="true" text="The anointed one" />
+            <answer correct="false" text="The blessed one" />
+            <answer correct="false" text="The chosen one" />
+            <answer correct="false" text="It is the last name of Jesus" />
+        </challenge>
+        <challenge question="St. Paul wrote how many epistles?" type="2">
+            <answer correct="true" text="14" />
+        </challenge>
+        <challenge question="Which gospel is dedicated to a specific person " type="1">
+            <answer correct="false" text="The gospel according to St. Matthew" />
+            <answer correct="false" text="The gospel according to St. Mark" />
+            <answer correct="true" text="The gospel according to St. Luke" />
+            <answer correct="false" text="The gospel according to St. John" />
+        </challenge>
+        <challenge question="The books of the New Testament total how many?" type="2">
+            <answer correct="true" text="27" />
+        </challenge>
+        <challenge question="The term used to describe the blessings of the Sermon on the Mount"
+            type="3">
+            <answer correct="true" text="The Beatitudes" />
+        </challenge>
+        <challenge question="How many Catholic Epistles are there?"
+            type="1">
+            <answer correct="false" text="5" />
+            <answer correct="false" text="4" />
+            <answer correct="true" text="7" />
+            <answer correct="false" text="8" />
+        </challenge>
+        <challenge question="These two brothers were referred to as the Sons of Thunder (Boanerges)" type="3">
+            <answer correct="true" text="St. James and St. John (The sons of Zebedee)" />
+        </challenge>
+    </category>
+
+
+    <category description="Test your knowledge of the Old Testament" image="@drawable/brown" title="The Old Testament">
+        <challenge question="The first 5 books of the Holy Bible each consist of a theme. What is the theme of each?" type="3">
+            <answer correct="true" text="Genesis: The creation of the world and the fall of man" />
+            <answer correct="true" text="Exodus: The redemption of the seed of Abraham " />
+            <answer correct="true" text="Leviticus: A manual of rules for establishing a relationship with God and those living with Him " />
+            <answer correct="true" text="Numbers: The book of arrangement " />
+            <answer correct="true" text="Deuteronomy: The book of the Second Law " />
+        </challenge>
+        <challenge question="The six days of creation can be separated into two groups" type="3">
+            <answer correct="true" text="Formlessness changed to form (Days 1-3)" />
+            <answer correct="true" text="Emptiness changed to habitation (Days 4-6) " />
+        </challenge>
+        <challenge question="Describe the idea that morality was woven into creation" type="3">
+            <answer correct="true" text="Morality did not exist before the creation. Rather through the creation it was formed. The expression it was good is repeatedly found throughout the creation "  />
+        </challenge>
+
+    </category>
+
+
+    <category description="Test your knowledge of some key church fathers" image="@drawable/blue" title="Patristics">
+        <challenge question="The name of the church father who defended the title of St. Mary?" type="3">
+            <answer correct="true" text="St. Cyril the 1st (The Pillar of Faith)" />
+        </challenge>
+        <challenge question="Who was the author of the Nicene Creed?" type="3">
+            <answer correct="true" text="St. Athanasius the Apostolic" />
+        </challenge>
+        <challenge question="The term Patrology comes from the latin word Pater meaning what?" type="1">
+            <answer correct="false" text="Teacher" />
+            <answer correct="true" text="Father" />
+            <answer correct="false" text="Master" />
+            <answer correct="false" text="Savior" />
+        </challenge>
+        <challenge question="This church father describes himself as being called Theophoros or bearer of God" type="3">
+            <answer correct="true" text="St. Ignatius of Antioch" />
+        </challenge>
+        <challenge question="The Council of Nicaea was held in what year?" type="2">
+            <answer correct="true" text="325" />
+        </challenge>
+        <challenge question="The five classifications of Patriarchs" type="3">
+            <answer correct="true" text="The Apostolic Fathers (St. Polycarp)" />
+            <answer correct="true" text="The Apologists (St. Irenaeus)" />
+            <answer correct="true" text="The Ecumenical Fathers (St. Athanasius)" />
+            <answer correct="true" text="The Confession Fathers (St. Dioscorus)" />
+            <answer correct="true" text="The Monastic Fathers (St. Antony)" />
+        </challenge>
+        <challenge question="This church father was the one that defended the faith against the heresy of Marcionism- the rejection of the Hebrew Bible and the God of Israel" type="1">
+            <answer correct="false" text="St. Clement of Rome" />
+            <answer correct="true" text="St. Polycarp" />
+            <answer correct="false" text="St. Ignatius" />
+            <answer correct="false" text="St. Clement of Alexandria" />
+        </challenge>
+        <challenge question="This church father wrote an Epistle to the Corinthians to combat the rebellion of youth against clergy" type="1">
+            <answer correct="false" text="St. Paul" />
+            <answer correct="false" text="St. Peter" />
+            <answer correct="true" text="St. Clement" />
+            <answer correct="false" text="St. Polycarp" />
+        </challenge>
+    </category>
+
+
+    <category description="Test your knowledge of the history of the Church" image="@drawable/gray" title="Church History">
+        <challenge question="The Coptic Church refutes which Council?" type="2">
+            <answer correct="true" text="chalcedon" />
+            <answer correct="true" text="Chalcedon" />
+        </challenge>
+        <challenge question="It was in this city that the disciples were first called Christians? (Acts 11:26)" type="1">
+            <answer correct="false" text="Rome" />
+            <answer correct="false" text="Ephesus" />
+            <answer correct="true"  text="Antioch" />
+            <answer correct="false" text="Corinth" />
+        </challenge>
+        <challenge question="The first martyr of the Apostles was... (Acts 12)"
+            type="3">
+            <answer correct="true" text="St. James the brother of St. John" />
+        </challenge>
+        <challenge question="This was one of the first heresies that existed even before Arias?" type="3">
+            <answer correct="true" text="The Judaizers. These were people that tried to practice the law of Moses in Christianity and mixed Judaism with Christianity. They denied the Divine Nature of Christ and considered Him a prophet" />
+        </challenge>
+        <challenge question="This gospel was written to the Jews who converted to Christianity and focuses on Christ as the Messiah (Main focus is that Christ came to make the Law perfect" type="1">
+            <answer correct="true" text="The gospel according to St. Matthew" />
+            <answer correct="false" text="The gospel according to St. Mark" />
+            <answer correct="false" text="The gospel according to St. Luke " />
+            <answer correct="false" text="The gospel according to St. John" />
+        </challenge>
+    </category>
+</categories>

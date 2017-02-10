@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="org.copticchurch.library.discoverorthodoxy">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name="org.copticchurch.library.discoverorthodoxy.BrainPhaserApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.nononsenseapps.filepicker.FilePickerActivity"
+            android:label="@string/app_name"
+            android:theme="@style/FilePickerTheme"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="org.copticchurch.library.discoverorthodoxy.activities.main.ProxyActivity"
+            android:label="@string/app_name"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="org.copticchurch.library.discoverorthodoxy.activities.fileimport.ImportChallengeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="file"/>
+                <data android:host="*"/>
+                <data android:pathPattern=".*\\.bpc"/>
+                <data android:pathPattern=".*\\..*\\.bpc"/>
+                <data android:pathPattern=".*\\..*\\..*\\.bpc"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.bpc"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.bpc"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.bpc"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="content"/>
+                <data android:host="*"/>
+                <data android:pathPattern=".*"/>
+                <data android:mimeType="text/xml"/>
+                <data android:mimeType="application/octet-stream"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="org.copticchurch.library.discoverorthodoxy.activities.createuser.CreateUserActivity"/>
+        <activity
+            android:name="org.copticchurch.library.discoverorthodoxy.activities.selectuser.UserSelectionActivity"
+            android:label="@string/select_user"
+            android:parentActivityName="org.copticchurch.library.discoverorthodoxy.activities.main.MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.copticchurch.library.discoverorthodoxy.activities.main.MainActivity"/>
+        </activity>
+        <activity
+            android:name="org.copticchurch.library.discoverorthodoxy.activities.aboutscreen.AboutActivity"
+            android:parentActivityName="org.copticchurch.library.discoverorthodoxy.activities.main.MainActivity"
+            android:label="@string/about">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.copticchurch.library.discoverorthodoxy.activities.main.MainActivity" />
+        </activity>
+        <activity
+            android:name="org.copticchurch.library.discoverorthodoxy.activities.main.MainActivity"
+            android:launchMode="singleTask">
+        </activity>
+        <activity
+            android:name="org.copticchurch.library.discoverorthodoxy.activities.playchallenge.ChallengeActivity"
+            android:label="@string/nav_learn"
+            android:parentActivityName="org.copticchurch.library.discoverorthodoxy.activities.main.MainActivity"
+            >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.copticchurch.library.discoverorthodoxy.activities.main.MainActivity"/>
+        </activity>
+        <activity android:name="org.copticchurch.library.discoverorthodoxy.activities.statistics.StatisticsActivity"
+            android:label="@string/statistics_label"
+            android:parentActivityName="org.copticchurch.library.discoverorthodoxy.activities.main.MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.copticchurch.library.discoverorthodoxy.activities.main.MainActivity"/>
+        </activity>
+        <activity android:name="org.copticchurch.library.discoverorthodoxy.activities.usersettings.SettingsActivity"
+            android:label="@string/settings_label"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName="org.copticchurch.library.discoverorthodoxy.activities.main.MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.copticchurch.library.discoverorthodoxy.activities.main.MainActivity"/>
+        </activity>
+    </application>
+</manifest>

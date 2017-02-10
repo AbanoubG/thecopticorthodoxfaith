@@ -1,0 +1,130 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+    applicationVariants.all { variant ->
+        task("generate${variant.name}Javadoc", type: Javadoc) {
+            description "Generates Javadoc for $variant.name."
+            source = files(variant.javaCompile.source) - files(fileTree(dir:'src/main/java/de/fhdw/ergoholics/brainphaser/model', include: '*.java'))
+            ext.androidJar = "${android.sdkDirectory}/platforms/${android.compileSdkVersion}/android.jar"
+            classpath = files(variant.javaCompile.classpath.files) + files(ext.androidJar)
+            options.showAll()
+            options.docletpath = [new File("../documentation/pdfdoclet-2.50.1-SNAPSHOT-all.jar")]
+            options.doclet = "com.tarsec.javadoc.pdfdoclet.PDFDoclet"
+            options.addFileOption("config", file("../documentation/config.properties"))
+
+            options.addFileOption("pdf", file('../javadoc.pdf'))
+        }
+        task("generate${variant.name}Listing") << {
+            def  collection = files(variant.javaCompile.source) + fileTree(dir:'src/main/res', include: '**/*/*.xml')
+            BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(
+                    new FileOutputStream("out.tex"), "UTF-8"
+            ));
+            collection.collect { [relativePath(it), it] }.sort().each { ArrayList<Object> l ->
+                if (l.get(1).text.size() > 0 ){
+                    println l.get(0)
+                    def reader = l.get(1).newReader();
+
+                    writer.write("\\begin{lstlisting}[caption=${(String)l.get(0).replace("src\\main\\java\\de\\fhdw\\ergoholics\\brainphaser\\", "").replace("\\", "/").replace("_", "\\_")}]")
+                    writer.newLine();
+
+                    char[] buffer = new byte[ 0xFFFF ];
+                    while(true) {
+                        def len = reader.read(buffer);
+                        if (len == -1) break;
+                        writer.write(buffer, 0, len);
+                    }
+
+                    writer.newLine();
+                    writer.writeLine("\\end{lstlisting}")
+                    writer.newLine();
+                }
+            }
+            writer.flush();
+            writer.close();
+        }
+    }
+
+
+    compileSdkVersion 23
+    buildToolsVersion "24"
+
+    defaultConfig {
+        applicationId "org.copticchurch.library.discoverorthodoxy"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 3
+        versionName "1.2"
+
+        testInstrumentationRunner "org.copticchurch.library.discoverorthodoxy.MockTestRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    // Exclude POM as it's already included through jarjar https://code.google.com/p/android/issues/detail?id=195331
+    packagingOptions {
+        exclude 'META-INF/maven/com.google.guava/guava/pom.properties'
+        exclude 'META-INF/maven/com.google.guava/guava/pom.xml'
+    }
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven { url "https://jitpack.io" }
+}
+
+preBuild.dependsOn ':brainphaserdaogenerator:run'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.android.support:design:23.2.1'
+    compile 'com.android.support:cardview-v7:23.2.1'
+    compile 'com.android.support:recyclerview-v7:23.2.1'
+
+    compile 'com.makeramen:roundedimageview:2.2.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'de.greenrobot:greendao:2.1.0'
+    compile 'com.nononsenseapps:filepicker:2.5.2'
+    compile 'com.github.PhilJay:MPAndroidChart:v2.2.3'
+    compile 'org.adw.library:discrete-seekbar:1.0.1'
+    compile 'net.danlew:android.joda:2.9.2'
+
+    compile 'com.google.dagger:dagger:2.1'
+    apt 'com.google.dagger:dagger-compiler:2.1'
+
+    testCompile 'junit:junit:4.12'
+
+    androidTestCompile 'com.android.support.test:runner:0.4'
+    androidTestCompile 'com.android.support.test:rules:0.4'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.1'
+    // Set this dependency to build and run UI Automator tests
+    // androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
+
+    // Guava
+    androidTestCompile group: 'com.google.guava', name: 'guava', version: '15.0'
+
+    // Fix version mismatch
+    androidTestCompile "com.android.support:support-annotations:23.2.1"
+
+    // Mockito
+    androidTestCompile 'org.mockito:mockito-core:1.9.5'
+    androidTestCompile 'com.google.dexmaker:dexmaker-mockito:1.0'
+    androidTestCompile 'com.google.dexmaker:dexmaker:1.0'
+
+    androidTestCompile('com.android.support.test.espresso:espresso-contrib:2.0') {
+        exclude group: 'com.android.support', module: 'appcompat'
+        exclude group: 'com.android.support', module: 'support-v4'
+        exclude module: 'recyclerview-v7'
+    }
+
+    androidTestApt 'com.google.dagger:dagger-compiler:2.1'
+}
+
