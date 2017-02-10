@@ -31,10 +31,6 @@ Android Quiz App in Material Design made with Java. Designed for tablets in land
 ![Settings](https://s3-eu-west-1.amazonaws.com/pointshop2/2016-05-18+08.02.24.jpg)
 
 ## License
-
-Brain Phase Android Quiz App
-    Copyright (C) 2016  Daniel Hoogen, Lars Kahra, Christian Kost, Thomas Stückel, Valentin Funk
-
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
