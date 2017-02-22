@@ -18,7 +18,7 @@
             android:layout_centerInParent="true"
             android:layout_gravity="center_horizontal"
             android:scaleType="fitCenter"
-            android:src="@drawable/ic_happyphaser" />
+            android:src="@drawable/cross_bknd" />
 
         <TextView
             android:id="@+id/textView"

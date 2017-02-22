@@ -67,6 +67,14 @@
             <answer correct="false" text=" When Christ is walking on the water, it is the Divine nature only since this is clearly the work of the divine power of God." />
         </challenge>
 
+        <challenge question=" Which statement best describes the Church’s view on the soul of Jesus Christ? "
+             type="1">
+             <answer correct="false" text="The Logos replaced the human soul in Jesus Christ." />
+             <answer correct="true" text="Jesus Christ had a full rational human soul because “What is not assumed is not healed”" />
+             <answer correct="false" text="Jesus Christ had a full human nature except the soul, as Christ came to heal our bodies and material matter only." />
+             <answer correct="false" text=" Jesus Christ’s soul was the only soul that wasn’t fallen after the sin of Adam and his soul was chosen to save mankind." />
+        </challenge>
+
         <challenge question="Which of the following best describes the death of Christ on the Cross? "
             type="3">
             <answer correct="true" text="God the Word died on the cross in the flesh" />
@@ -133,13 +141,12 @@
         <challenge question="Describe the idea that morality was woven into creation" type="3">
             <answer correct="true" text="Morality did not exist before the creation. Rather through the creation it was formed. The expression it was good is repeatedly found throughout the creation "  />
         </challenge>
-
     </category>
 
 
     <category description="Test your knowledge of some key church fathers" image="@drawable/blue" title="Patristics">
         <challenge question="The name of the church father who defended the title of St. Mary?" type="3">
-            <answer correct="true" text="St. Cyril the 1st (The Pillar of Faith)" />
+            <answer correct="true" text="St. Cyril I (The Pillar of Faith)" />
         </challenge>
         <challenge question="Who was the author of the Nicene Creed?" type="3">
             <answer correct="true" text="St. Athanasius the Apostolic" />
@@ -193,14 +200,110 @@
             type="3">
             <answer correct="true" text="St. James the brother of St. John" />
         </challenge>
-        <challenge question="This was one of the first heresies that existed even before Arias?" type="3">
+        <challenge question="This was one of the first heresies that existed even before Arias?"
+            type="3">
             <answer correct="true" text="The Judaizers. These were people that tried to practice the law of Moses in Christianity and mixed Judaism with Christianity. They denied the Divine Nature of Christ and considered Him a prophet" />
         </challenge>
-        <challenge question="This gospel was written to the Jews who converted to Christianity and focuses on Christ as the Messiah (Main focus is that Christ came to make the Law perfect" type="1">
+        <challenge question="This gospel was written to the Jews who converted to Christianity and focuses on Christ as the Messiah (Main focus is that Christ came to make the Law perfect)"
+            type="1">
             <answer correct="true" text="The gospel according to St. Matthew" />
             <answer correct="false" text="The gospel according to St. Mark" />
             <answer correct="false" text="The gospel according to St. Luke " />
             <answer correct="false" text="The gospel according to St. John" />
+        </challenge>
+        <challenge question="When does history begin?"
+            type="3">
+            <answer correct="true" text="History begins with the fall of man" />
+        </challenge>
+        <challenge question="The 5 challenges of doing history?"
+            type="3">
+            <answer correct="true" text="Presentiscism" />
+            <answer correct="true" text="Assumed uniformity" />
+            <answer correct="true" text="Cherry Picking" />
+            <answer correct="true" text="Generalizations" />
+            <answer correct="true" text="Idealistic depictions" />
+        </challenge>
+        <challenge question="What are some of the sources that we have to study Coptic Church History?"
+            type="3">
+            <answer correct="true" text="Christian Authors" />
+            <answer correct="true" text="Ecclesiastical Histories: Evagrius and Eusebius" />
+            <answer correct="true" text="History of church fathers" />
+            <answer correct="true" text="Icons and wall paintings" />
+            <answer correct="true" text="Carvings and archaeological evidence" />
+        </challenge>
+        <challenge question="St. Mark introduces Christianity to Egypt by first preaching to Anianus the Cobbler who is..."
+            type="1">
+            <answer correct="true" text="Jewish" />
+            <answer correct="false" text="a Pagan" />
+            <answer correct="false" text="Greek " />
+            <answer correct="false" text="a Polytheist" />
+        </challenge>
+        <challenge question="These are two men from Alexandria that became the founders of Gnostic thought"
+            type="3">
+            <answer correct="true" text="Basilidis and Valentinus" />
+        </challenge>
+        <challenge question="What did the Dishna Papers indicate?"
+            type="3">
+            <answer correct="true" text="The Gnostics viewed the Old Testament as evil. Therefore the Dishna papers, which contained the Psalms, proved this to be false" />
+        </challenge>
+        <challenge question="The word Apology referring to Apologists means what?"
+            type="1">
+            <answer correct="true" text="Defense" />
+            <answer correct="false" text="Protect" />
+            <answer correct="false" text="Guard " />
+            <answer correct="false" text="Keep" />
+        </challenge>
+        <challenge question="Schisms during the Age of Martyrdom"
+            type="3">
+            <answer correct="true" text="Novatian, Donatists, and Meletian" />
+        </challenge>
+        <challenge question="Some key aspects of the reign of Constantine"
+            type="3">
+            <answer correct="true" text=" Establishes Sunday as a day of rest, Christians are able to own land, builds many churches across Antioch and Jerusalem" />
+        </challenge>
+        <challenge question="The 5 Ancient Sees"
+            type="3">
+            <answer correct="true" text=" Rome" />
+            <answer correct="true" text=" Constantinople" />
+            <answer correct="true" text=" Alexandria" />
+            <answer correct="true" text=" Jerusalem" />
+            <answer correct="true" text=" Antioch" />
+        </challenge>
+        <challenge question="Outcomes of the Council of Nicaea "
+            type="3">
+            <answer correct="true" text="Arianism (the heretic that argues there was a time where the divinity of Christ was not) is rejected " />
+            <answer correct="true" text="The Nicaen Creed is created " />
+            <answer correct="true" text="Meletian Schism is resolved by forbidding Meletians from ordaining any others " />
+            <answer correct="true" text="The date of the Feast of Resurrection should not be celebrated with the Jews " />
+        </challenge>
+        <challenge question="The 2nd Ecumenical Council of Constantinople establishes "
+            type="3">
+            <answer correct="true" text="The Nicaen Constantinople Creed (adding Yes we believe in the Holy Spirit to combat Macedonianism) " />
+            <answer correct="true" text="Establishes Constantinople as second to Rome because it is the New Rome " />
+            <answer correct="true" text="The idea of Christ not having a soul was rejected (Apollinarianism) " />
+        </challenge>
+        <challenge question="Main proponent of each Council prior to Chalcedon  "
+            type="3">
+            <answer correct="true" text="St. Athanasius at Nicaea (325) " />
+            <answer correct="true" text="St. Timothy (disciple of St. Athanasius) at Constantinople (381)  " />
+            <answer correct="true" text="St. Cyril I at Ephesus (431) " />
+        </challenge>
+        <challenge question="Outcomes of the Council of Ephesus "
+            type="3">
+            <answer correct="true" text="The term Christotokos is rejected by Nestor and the term Theotokos is kept " />
+        </challenge>
+        <challenge question="These Ancient Sees are East or Greek (Select all that apply) "
+            type="1">
+            <answer correct="true" text="Antioch" />
+            <answer correct="true" text="Constantinople" />
+            <answer correct="true" text="Alexandria" />
+            <answer correct="true" text="Jerusalem" />
+        </challenge>
+        <challenge question="The Council of Ephesus is held in what year?" type="2">
+            <answer correct="true" text="431" />
+        </challenge>
+        <challenge question="The Council of Constantinople is held in what year?" type="2">
+            <answer correct="true" text="381" />
         </challenge>
     </category>
 </categories>

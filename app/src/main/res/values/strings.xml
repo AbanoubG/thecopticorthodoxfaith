@@ -40,11 +40,11 @@
     <string name="stage_num">Course %d</string>
     <string name="multiple_choice">Multiple choice</string>
     <string name="self_check">Self evaluation</string>
-    <string name="text">Free text</string>
-    <string name="wrong_answer">Wrong answer</string>
+    <string name="text">Free response</string>
+    <string name="wrong_answer">Incorrect answer</string>
 
     <string name="well_done">Well done!</string>
-    <string name="enjoy_day">No questions due. Time for a break.</string>
+    <string name="enjoy_day">No questions due.</string>
 
     <string name="switch_user">Switch user</string>
     <string name="switch_user_short">Switch</string>
@@ -69,10 +69,10 @@
     <string name="statistics">Statistics</string>
     <string name="statistics_label">Statistics</string>
     <string name="statistics_most_played">Most answered</string>
-    <string name="statistics_most_failed">Mostly wrong</string>
+    <string name="statistics_most_failed">Mostly incorrect</string>
     <string name="statistics_most_succeeded">Mostly correct</string>
-    <string name="statistics_no_challenge_selected">Please choose a challenge in the pie chart!</string>
-    <string name="statistics_most_played_information_text">Tap on a piece of the pie chart to display the challenge.</string>
+    <string name="statistics_no_challenge_selected">Please choose a question in the pie chart!</string>
+    <string name="statistics_most_played_information_text">Tap on a piece of the pie chart to display the question.</string>
 
     <string name="stages_desc">You can change the time intervals of the courses here.</string>
     <string name="months">Months</string>

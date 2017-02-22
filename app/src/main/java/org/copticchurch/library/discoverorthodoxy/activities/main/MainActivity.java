@@ -4,11 +4,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
 import com.nononsenseapps.filepicker.FilePickerActivity;
+import com.onesignal.OSNotification;
+import com.onesignal.OSNotificationAction;
+import com.onesignal.OSNotificationOpenResult;
+import com.onesignal.OneSignal;
+import com.onesignal.OneSignal.NotificationOpenedHandler;
 
 import org.copticchurch.library.discoverorthodoxy.activities.BrainPhaserActivity;
 import org.copticchurch.library.discoverorthodoxy.logic.UserManager;
@@ -21,6 +27,8 @@ import org.copticchurch.library.discoverorthodoxy.activities.aboutscreen.AboutAc
 import org.copticchurch.library.discoverorthodoxy.activities.fileimport.ImportChallengeActivity;
 import org.copticchurch.library.discoverorthodoxy.activities.selectuser.UserSelectionActivity;
 import org.copticchurch.library.discoverorthodoxy.activities.usersettings.SettingsActivity;
+import org.json.JSONObject;
+
 
 /**
  * Created by funkv on 20.02.2016.
@@ -51,6 +59,9 @@ public class MainActivity extends BrainPhaserActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        OneSignal.startInit(this)
+                .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
+                .init();
         setContentView(org.copticchurch.library.discoverorthodoxy.R.layout.mainactivity);
 
 
@@ -60,6 +71,11 @@ public class MainActivity extends BrainPhaserActivity {
         setSupportActionBar(toolbar);
 
     }
+
+
+
+
+
 
     /**
      * This method is called for creating action menu.
@@ -78,6 +94,32 @@ public class MainActivity extends BrainPhaserActivity {
 
         return super.onCreateOptionsMenu(menu);
     }
+
+    private class ExampleNotificationOpenedHandler implements NotificationOpenedHandler {
+        @Override
+        public void notificationOpened(OSNotificationOpenResult openedResult) {
+            OSNotification notification = openedResult.notification;
+            JSONObject data = notification.payload.additionalData;
+            OSNotificationAction.ActionType actionType = openedResult.action.type;
+
+            String customKey = data.optString("customkey", null);
+            if (actionType == OSNotificationAction.ActionType.ActionTaken)
+                Log.i("OneSignalExample", "Button pressed with id: " + openedResult.action.actionID);
+
+            if (data != null)
+                Log.d("OneSignalExample", "Full additionalData:\n" + data.toString());
+
+            Log.d("OneSignalExample", "App in focus: " + notification.isAppInFocus);
+        }
+    }
+
+
+
+
+
+
+
+
 
     /**
      * This method handles the action menu item selections.
@@ -103,7 +145,18 @@ public class MainActivity extends BrainPhaserActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
+
+
+
+
+
     }
+
+
+
+
+
+
 
     /**
      * This method is called when the activity was called for a result.
@@ -126,6 +179,7 @@ public class MainActivity extends BrainPhaserActivity {
 
         super.onActivityResult(requestCode, resultCode, data);
     }
+
 
     /**
      * This method is called hen the activity is started.
@@ -165,6 +219,18 @@ public class MainActivity extends BrainPhaserActivity {
 
             // Update the intent so it doesn't show again on back navigation and thus only when explicitly requested
             intent.putExtra(EXTRA_SHOW_LOGGEDIN_SNACKBAR, false);
+
+
         }
+
+
+
     }
+
+
+
+
+
+
+
 }
