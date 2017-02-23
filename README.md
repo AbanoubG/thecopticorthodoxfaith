@@ -6,11 +6,11 @@ A simple quiz application to learn more about the Coptic Orthodox Faith
 </p>
 
 ##Categories
-Orthodoxy
-Church History
-New Testament
-Old Testament
-Patristics
+- Orthodoxy
+- Church History
+- New Testament
+- Old Testament
+- Patristics
 
 ##Screenshots
-
+- coming soon 
