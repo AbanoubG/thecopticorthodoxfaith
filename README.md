@@ -16,4 +16,7 @@ A simple quiz application to learn more about the Coptic Orthodox Faith
 - coming soon 
 
 ##PlayStore 
-https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png
+<p align="center">
+  <img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Launcher Icon"/>
+</p>
+
