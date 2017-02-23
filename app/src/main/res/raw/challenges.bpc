@@ -79,6 +79,70 @@
             type="3">
             <answer correct="true" text="God the Word died on the cross in the flesh" />
         </challenge>
+        <challenge question="Which of the following best describes the Holy Trinity "
+            type="1">
+            <answer correct="true" text="The Holy Trinity is three divine persons who share one essence. All persons are co-eternal, co-substantial- and co-equal with one another" />
+            <answer correct="false" text="The Holy Trinity is three names, or modes, for one divine person, who acts through time and history as one" />
+            <answer correct="false" text="The Holy Trinity is three divine persons who are hierarchal in their relationship. The Father is greater than the Son, the Son is greater than the Holy Spirit." />
+            <answer correct="false" text="The Holy Trinity is three divine persons, each having their own essence. All persons are co-eternal, co-substantial- and co-equal with one another" />
+        </challenge>
+        <challenge question="Which if the following best describes the Humanity (flesh) of Jesus Christ?  "
+            type="1">
+            <answer correct="true" text="Jesus Christ took His flesh from St. Mary and became like us in everything but sin." />
+            <answer correct="false" text=" Jesus Christ took flesh from St. Mary and became like us in everything but sin, and, His flesh was incorruptible (unable to suffer) from the beginning." />
+            <answer correct="false" text="Jesus Christ only appeared to be human without truly becoming human." />
+            <answer correct="false" text="Jesus Christ took His flesh from heaven, and it was not co-substantial with us." />
+        </challenge>
+        <challenge question="Which if the following best describes the Holy Spirit  "
+            type="1">
+            <answer correct="true" text="The Holy Spirit is a divine person who proceeds from the Father and is co-equal with the Father and the Son. He is the comforter and He dwells in those who are baptized and Chrismated in order to help them become more and more like Christ  " />
+            <answer correct="false" text=" The Holy Spirit is a divine person who was created by the Father, and is not of the same essence as the Father. He does not dwell inside of those who are baptized." />
+            <answer correct="false" text="The Holy Spirit is a divine person who proceeds from both the Father and the Son in order to help those who are baptized" />
+            <answer correct="false" text="The Holy Spirit is a force sent by the Father in order to help those who are baptized" />
+        </challenge>
+        <challenge question="Which of the following best describes God the Father "
+            type="1">
+            <answer correct="true" text="God the Father is the fountainhead and source of the Holy Trinity, and The Maker of heaven and earth, and of all things visible and invisible." />
+            <answer correct="false" text="God the Father is the only true God, and He does not have a Son or a Spirit." />
+            <answer correct="false" text="God the Father is the leader of the Holy Trinity and is greater in eternity than both the Son and the Holy Spirit." />
+            <answer correct="false" text="God the Father is the God of Jesus Christ, whom He used to create all things." />
+        </challenge>
+        <challenge question="Which of the following best describes the use of Icons in the Church "
+            type="1">
+            <answer correct="true" text="Icons are only venerated but worship belongs to God alone" />
+            <answer correct="false" text="Icons should depict God the Father as well as the rest of the Trinity" />
+            <answer correct="false" text="The use of Icons in the Church is clearly forbidden as outlined by the Holy Scriptures" />
+            <answer correct="false" text="Icons are meant to be worshiped, and not just venerated only." />
+        </challenge>
+        <challenge question="Which best describes the Church’s view on relics of the departed saints? "
+            type="1">
+            <answer correct="true" text="Their use is due to the belief that Christ Himself took on a human body, thus blessing it. When a believer is baptized and christmated, he now becomes a temple for the Holy Spirit, thus the body is rendered Holy. " />
+            <answer correct="false" text="Their use is due to the belief that the Saints are holy people whose level we can never become and thus they are special instruments that communicate special grace to us." />
+            <answer correct="false" text="TTheir use is clearly heretical because we are taught that the body is a useless instrument for the spirit. " />
+            <answer correct="false" text="Their use is nowhere to be found in the Scriptures, and is thus a medieval man-made tradition. " />
+        </challenge>
+        <challenge question="Which of the following best describes the Church "
+            type="1">
+            <answer correct="true" text="The Church is the Body of Christ, a divine- human communion of Jesus Christ with His people." />
+            <answer correct="false" text="The Church consists of only of those who are alive." />
+            <answer correct="false" text="The Church is a man-made organization, headed by certain men, who lead the faithful in worship. " />
+            <answer correct="false" text="The Church is not essential for salvation." />
+        </challenge>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </category>
 
 
@@ -278,7 +342,7 @@
         </challenge>
         <challenge question="The 2nd Ecumenical Council of Constantinople establishes "
             type="3">
-            <answer correct="true" text="The Nicaen Constantinople Creed (adding Yes we believe in the Holy Spirit to combat Macedonianism) " />
+            <answer correct="true" text="The Nicaen- Constantinople Creed (adding Yes we believe in the Holy Spirit to combat Macedonianism) " />
             <answer correct="true" text="Establishes Constantinople as second to Rome because it is the New Rome " />
             <answer correct="true" text="The idea of Christ not having a soul was rejected (Apollinarianism) " />
         </challenge>
@@ -305,5 +369,54 @@
         <challenge question="The Council of Constantinople is held in what year?" type="2">
             <answer correct="true" text="381" />
         </challenge>
+        <challenge question="The Era of the Martyrs begins in what year?" type="2">
+            <answer correct="true" text="284" />
+        </challenge>
+        <challenge question="The Council of Chalcedon is held in what year?" type="2">
+            <answer correct="true" text="451" />
+        </challenge>
+        <challenge question="The Council of Chalcedon splits Christianity into two factions?" type="1">
+            <answer correct="false" text="Catholic and Orthodox " />
+            <answer correct="false" text="Orthodox and Non- Orthodox " />
+            <answer correct="true" text="Chalcedonian and anti- chalcedonian" />
+            <answer correct="false" text="None of these" />
+        </challenge>
+        <challenge question="The models of Monasticism (Select all that apply) " type="1">
+            <answer correct="true" text="Hermetic (St. Paul the Hermit) " />
+            <answer correct="true" text="Cenobitic (St. Pachomius)  " />
+            <answer correct="true" text="Manshubiya (St. John the Little)" />
+            <answer correct="true" text="Urban (St. Macrina) " />
+        </challenge>
+        <challenge question="Why were the 4th and 5th centuries considered the Golden Age? " type="1">
+            <answer correct="false" text="There was no persecution " />
+            <answer correct="true" text="Monasticism thrived and great Alexandrian Patriarchs lived during this period    " />
+            <answer correct="false" text="The absence of theological disputes " />
+            <answer correct="false" text="The Catechetical School of Alexandria was at its apex " />
+        </challenge>
+        <challenge question="This term was coined during the Council of Chalcedon and has been rejected by Copts since the 5th century?" type="2">
+            <answer correct="true" text="monophysites" />
+            <answer correct="true" text="Monophysites" />
+            <answer correct="true" text="Monophysite" />
+            <answer correct="true" text="monophysite" />
+        </challenge>
+        <challenge question="This phrase coined by St. Cyril maintains that Christ has one nature " type="3">
+            <answer correct="true" text=" Mia physis tou eyio tou Theo sesarkomene " />
+            <answer correct="true" text=" One incarnate nature of God the Word " />
+
+        </challenge>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </category>
 </categories>
