@@ -21,7 +21,6 @@ A simple quiz application to learn more about the Coptic Orthodox Faith
 ##PlayStore 
 
 
-<a href="https://play.google.com/store/apps/details?id=org.copticchurch.library.discoverorthodoxy" 
-   title="The Coptic Orthodox Faith">
-</a>
+[The Coptic Orthodox Faith](https://play.google.com/store/apps/details?id=org.copticchurch.library.discoverorthodoxy) 
+ 
 
