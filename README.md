@@ -13,7 +13,6 @@ A simple quiz application to learn more about the Coptic Orthodox Faith
 - Patristics
 
 ##Screenshots
-- coming soon 
 ![Account Creation](https://github.com/AbanoubG/thecopticorthodoxfaith/blob/master/Screenshot_1486663650.png)
 ![Icon selector](https://github.com/AbanoubG/thecopticorthodoxfaith/blob/master/Screenshot_1486663668.png)
 ![Categories](https://github.com/AbanoubG/thecopticorthodoxfaith/blob/master/Screenshot_1486663678.png)
