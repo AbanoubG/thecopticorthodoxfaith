@@ -22,5 +22,10 @@ A simple quiz application to learn more about the Coptic Orthodox Faith
 
 
 [The Coptic Orthodox Faith](https://play.google.com/store/apps/details?id=org.copticchurch.library.discoverorthodoxy) 
+
+##License
+    The Coptic Orthodox Faith
+    This project has been forked from an existing project on GitHub called BrainPhaser
+    [BrainPhaser](https://github.com/Kamshak/BrainPhaser) written by Daniel Hoogen, Lars Kahra, Christian Kost, Thomas Stückel, Valentin Funk
  
 
