@@ -81,27 +81,27 @@ public class ImportChallengeActivity extends Activity implements DialogInterface
         try {
             if (is != null) {
                 FileImport.importBPC(is, (BrainPhaserApplication) getApplication());
-                message = "Datei erfolgreich importiert!";
+                message = "Data successfully imported";
             } else {
-                message = "Dateiimport fehlgeschlagen!";
+                message = "Data import failed";
             }
         } catch (FileFormatException e) {
             Log.d("Wrong File Format", e.toString());
-            message = "Fehler: Die Datei ist nicht im XML-Format!";
+            message = "File is not in XML format";
         } catch (UnexpectedElementException e) {
             Log.d("Unexpected Element", e.toString());
-            message = "Fehler: Die Datei enthält ungültige Elemente!";
+            message = "The file contains invalid elements";
         } catch (InvalidAttributeException e) {
-            message = "Fehler: Der Attributwert " + e.getValue() +
-                    " ist kein gültiger Wert für das Attribut " + e.getAttribute();
+            message = "Attribute Error " + e.getValue() +
+                    " Invalid value for attribute " + e.getAttribute();
         } catch (ElementAmountException e) {
-            message = "Das Attribut " + e.getElement() + " wird " + e.getExpectedAmount() +
-                    " mal erwartet, aber wurde " + e.getAmount() + " mal gefunden.";
+            message = "The attribute " + e.getElement() + " occurs " + e.getExpectedAmount() +
+                    " and should only occur " + e.getAmount() + " times";
         }
 
         //Show the message in a dialogue
         AlertDialog.Builder messageBox = new AlertDialog.Builder(this);
-        messageBox.setTitle("Dateiimport");
+        messageBox.setTitle("Data Import");
         messageBox.setMessage(message);
         messageBox.setCancelable(false);
         messageBox.setNeutralButton("OK", this);

@@ -3,6 +3,8 @@ package org.copticchurch.library.discoverorthodoxy.activities.main;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
+import android.support.v4.view.MenuItemCompat;
+import android.support.v7.widget.ShareActionProvider;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
@@ -16,6 +18,7 @@ import com.onesignal.OSNotificationOpenResult;
 import com.onesignal.OneSignal;
 import com.onesignal.OneSignal.NotificationOpenedHandler;
 
+import org.copticchurch.library.discoverorthodoxy.R;
 import org.copticchurch.library.discoverorthodoxy.activities.BrainPhaserActivity;
 import org.copticchurch.library.discoverorthodoxy.logic.UserManager;
 
@@ -86,6 +89,21 @@ public class MainActivity extends BrainPhaserActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(org.copticchurch.library.discoverorthodoxy.R.menu.menu, menu);
+
+        MenuItem shareItem = menu.findItem(R.id.action_share);
+
+        ShareActionProvider mShare = (ShareActionProvider) MenuItemCompat.getActionProvider(shareItem);
+
+        Intent shareIntent = new Intent(Intent.ACTION_SEND);
+        shareIntent.setAction(Intent.ACTION_SEND);
+        shareIntent.setType("text/plain");
+        shareIntent.putExtra(Intent.EXTRA_TEXT, "Learn more about the Coptic Orthodox Faith "   +
+                "https://play.google.com/store/apps/details?id=org.copticchurch.library.discoverorthodoxy");
+
+        mShare.setShareIntent(shareIntent);
+
+
+
 
         if (BuildConfig.DEBUG) {
             MenuItem item = menu.add("Import BPC");
