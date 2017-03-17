@@ -5,25 +5,26 @@ A simple quiz application to learn more about the Coptic Orthodox Faith
   <img src="https://github.com/AbanoubG/thecopticorthodoxfaith/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" alt="Launcher Icon"/>
 </p>
 
-##Categories
+# Categories
 - Orthodoxy
 - Church History
 - New Testament
 - Old Testament
 - Patristics
+- Liturgical Studies
 
-##Screenshots
+# Screenshots
 - coming soon
 
 
 
 
-##PlayStore 
+# PlayStore 
 
 
 [The Coptic Orthodox Faith](https://play.google.com/store/apps/details?id=org.copticchurch.library.discoverorthodoxy) 
 
-##License
+# License
     The Coptic Orthodox Faith
     This project has been forked from an existing project on GitHub called BrainPhaser
     [BrainPhaser](https://github.com/Kamshak/BrainPhaser) written by Daniel Hoogen, Lars Kahra, Christian Kost, Thomas Stückel, Valentin Funk
