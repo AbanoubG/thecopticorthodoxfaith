@@ -11,6 +11,7 @@ A simple quiz application to learn more about the Coptic Orthodox Faith
 - New Testament
 - Old Testament
 - Patristics
+- Liturgical Studies
 
 # Screenshots
 - coming soon
