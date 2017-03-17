@@ -46,15 +46,15 @@ android {
     }
 
 
-    compileSdkVersion 23
-    buildToolsVersion "24"
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
 
     defaultConfig {
         applicationId "org.copticchurch.library.discoverorthodoxy"
         minSdkVersion 15
-        targetSdkVersion 23
-        versionCode 6
-        versionName "2.2"
+        targetSdkVersion 25
+        versionCode 7
+        versionName "2.3"
         multiDexEnabled = true
         manifestPlaceholders = [manifestApplicationId: "${applicationId}",
                                 onesignal_app_id: "c71ad105-ca7d-4d61-ac56-dfed33169a96",
@@ -88,11 +88,11 @@ preBuild.dependsOn ':brainphaserdaogenerator:run'
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
 
-    compile 'com.android.support:appcompat-v7:23.2.1'
-    compile 'com.android.support:design:23.2.1'
-    compile 'com.android.support:cardview-v7:23.2.1'
-    compile 'com.android.support:recyclerview-v7:23.2.1'
-    compile 'com.android.support:support-v4:23.0.0'
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:design:25.2.0'
+    compile 'com.android.support:cardview-v7:25.2.0'
+    compile 'com.android.support:recyclerview-v7:25.2.0'
+    compile 'com.android.support:support-v4:25.2.0'
 
 
     compile 'com.makeramen:roundedimageview:2.2.1'
@@ -133,7 +133,7 @@ dependencies {
     androidTestCompile group: 'com.google.guava', name: 'guava', version: '15.0'
 
     // Fix version mismatch
-    androidTestCompile "com.android.support:support-annotations:24.0.0"
+    androidTestCompile "com.android.support:support-annotations:25.2.0"
 
     // Mockito
     androidTestCompile 'org.mockito:mockito-core:1.9.5'

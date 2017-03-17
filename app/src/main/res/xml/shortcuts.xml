@@ -1,0 +1,49 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="mail"
+        android:enabled="true"
+        android:icon="@drawable/ic_mail"
+        android:shortcutShortLabel="@string/submitshort"
+        android:shortcutLongLabel="@string/submitlong"
+        android:shortcutDisabledMessage="@string/disabled">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="org.copticchurch.library.discoverorthodoxy"
+            android:targetClass="org.copticchurch.library.discoverorthodoxy.activities.aboutscreen.AboutActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="stats"
+        android:enabled="true"
+        android:icon="@drawable/ic_pie"
+        android:shortcutShortLabel="@string/stats"
+        android:shortcutLongLabel="@string/statistics"
+        android:shortcutDisabledMessage="@string/disabled">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="org.copticchurch.library.discoverorthodoxy"
+            android:targetClass="org.copticchurch.library.discoverorthodoxy.activities.statistics.StatisticsActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="add"
+        android:enabled="false"
+        android:icon="@drawable/ic_add"
+        android:shortcutShortLabel="@string/add_user"
+        android:shortcutLongLabel="@string/add_user"
+        android:shortcutDisabledMessage="@string/disabled">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="org.copticchurch.library.discoverorthodoxy"
+            android:targetClass="org.copticchurch.library.discoverorthodoxy.activities.createuser.CreateUserActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+
+
+
+
+
+</shortcuts>

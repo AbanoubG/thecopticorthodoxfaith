@@ -41,7 +41,7 @@
     <string name="multiple_choice">Multiple choice</string>
     <string name="self_check">Self evaluation</string>
     <string name="text">Free response</string>
-    <string name="wrong_answer">Incorrect answer</string>
+    <string name="wrong_answer">Incorrect</string>
 
     <string name="well_done">Well done!</string>
     <string name="enjoy_day">No questions due.</string>
@@ -107,4 +107,8 @@
     <string name="about_teamMembers">A service made to help those learn more about the Coptic Orthodox Church</string>
     <string name="title_about">Acknowledgements + Software licenses:</string>
     <string name="about_team_headline">The Coptic Orthodox Faith</string>
+    <string name="disabled">App shortcut not enabled</string>
+    <string name="submitshort">Submit</string>
+    <string name="submitlong">Submit Questions</string>
+    <string name="stats">Stats</string>
 </resources>
