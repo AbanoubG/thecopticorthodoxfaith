@@ -11,7 +11,7 @@ public class BrainphaserDaoGenerator {
     public static int DATABASE_VERSION = 7;
 
     public static void main(String args[]) throws Exception {
-        Schema schema = new Schema(1, "org.copticchurch.library.discoverorthodoxy.model");
+        Schema schema = new Schema(2, "org.copticchurch.library.discoverorthodoxy.model");
 
         // Create entities
         Entity userEntity = createUserEntity(schema);

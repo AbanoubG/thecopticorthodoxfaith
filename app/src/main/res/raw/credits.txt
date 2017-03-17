@@ -4,6 +4,7 @@ The Coptic Orthodox Faith - 2017 Coptic Church Library
 
 
 This application was a forked and modified version of BrainPhaser under the terms of the GNU General Public License as published by the Free Software Foundation.
+
 Questions:
 
 All questions have been either created by Coptic Church Library, obtained from various Coptic Orthodox websites or, have been submitted by users.

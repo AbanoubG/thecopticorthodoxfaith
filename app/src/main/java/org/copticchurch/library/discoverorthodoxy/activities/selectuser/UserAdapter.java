@@ -168,7 +168,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserViewHolder
             MenuItem editItem = menu.add(mApplication.getString(org.copticchurch.library.discoverorthodoxy.R.string.user_context_menu_button_edit));
             editItem.setOnMenuItemClickListener(this);
 
-            if (!mUsers.get(getPosition()).getId().equals(mUserManager.getCurrentUser().getId())) {
+            if (mUsers.get(getLayoutPosition()).getId().equals(mUserManager.getCurrentUser().getId())) {
                 MenuItem deleteItem = menu.add(mApplication.getString(org.copticchurch.library.discoverorthodoxy.R.string.user_context_menu_button_delete));
                 deleteItem.setOnMenuItemClickListener(this);
             }
@@ -183,9 +183,9 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserViewHolder
         @Override
         public boolean onMenuItemClick(MenuItem item) {
             if (item.getTitle().equals(mApplication.getString(org.copticchurch.library.discoverorthodoxy.R.string.user_context_menu_button_edit))) {
-                mResultListener.onEditUser(mUsers.get(getPosition()));
+                mResultListener.onEditUser(mUsers.get(getLayoutPosition()));
             } else if (item.getTitle().equals(mApplication.getString(org.copticchurch.library.discoverorthodoxy.R.string.user_context_menu_button_delete))) {
-                mResultListener.onDeleteUser(mUsers.get(getPosition()), getPosition());
+                mResultListener.onDeleteUser(mUsers.get(getLayoutPosition()), getLayoutPosition());
             }
 
             return true;

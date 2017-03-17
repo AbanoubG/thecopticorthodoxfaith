@@ -37,7 +37,7 @@
     <string name="empty_answer">The answer cannot be empty.</string>
     <string name="correct_answer">Correct answers:</string>,
     <string name="query_correct_answer">Was your answer correct?</string>
-    <string name="stage_num">Course %d</string>
+    <string name="stage_num">Session %d</string>
     <string name="multiple_choice">Multiple choice</string>
     <string name="self_check">Self evaluation</string>
     <string name="text">Free response</string>
@@ -56,8 +56,8 @@
 
     <string name="nav_learn">Learning</string>
     <string name="due_chart_center_text">Due date</string>
-    <string name="stage_chart_center_text">Courses</string>
-    <string name="chart_no_data_text">No statistical data available!</string>
+    <string name="stage_chart_center_text">Session</string>
+    <string name="chart_no_data_text">No statistical data available</string>
     <string name="challenge_due_text">Yes</string>
     <string name="challeng_not_due_text">No</string>
     <string name="chart_stage_others_text">Others</string>
@@ -75,13 +75,13 @@
     <string name="statistics_no_challenge_selected">Please choose a question in the pie chart!</string>
     <string name="statistics_most_played_information_text">Tap on a piece of the pie chart to display the question.</string>
 
-    <string name="stages_desc">You can change the time intervals of the courses here.</string>
+    <string name="stages_desc">You can change the time intervals of the study sessions here.</string>
     <string name="months">Months</string>
     <string name="weeks">Weeks</string>
     <string name="days">Days</string>
     <string name="hours">Hours</string>
     <string name="minutes">Minutes</string>
-    <string name="setting_stage">Course %d</string>
+    <string name="setting_stage">Session %d</string>
     <string name="settings_label">Settings</string>
     <string name="formatter_minutes">Minutes</string>
     <string name="formatter_minute">Minute</string>
@@ -94,14 +94,14 @@
     <string name="formatter_month">Month</string>
     <string name="formatter_months">Months</string>
     <string name="save">Save</string>
-    <string name="stages">Time intervals of the courses</string>
+    <string name="stages">Time intervals of the session</string>
     <string name="reset_settings">Reset settings.</string>
-    <string name="settings_reset">Settings reset.</string>
+    <string name="settings_reset">Settings have been reset</string>
     <string name="undo">Undo</string>
     <string name="abort">Cancel</string>
 
-    <string name="error_less_than_previous">The time period must be greater than that of the previous course.</string>
-    <string name="error_more_than_next">The time period must be less than that of the following course.</string>
+    <string name="error_less_than_previous">The time period must be greater than that of the previous session.</string>
+    <string name="error_more_than_next">The time period must be less than that of the following session.</string>
     <string name="error_zero_value">The time period cannot be equal to zero.</string>
 
     <string name="about_teamMembers">A service made to help those learn more about the Coptic Orthodox Church</string>
