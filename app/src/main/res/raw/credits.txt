@@ -7,16 +7,12 @@ This application was a forked and modified version of BrainPhaser under the term
 
 Questions:
 
-All questions have been either created by Coptic Church Library, obtained from various Coptic Orthodox websites or, have been submitted by users.
-Credits
-✜ Diocese of the Southern United States
-✜ Tony Rizk
+Questions have been either created by the developer, gathered from various reputable Coptic Orthodox websites or, have been submitted by users.
 
 
-Icons: All icons have been created by Copticchurch-library.org
-Can I Use The Free Icons In My Projects ?
-
-Icons can be used in a commercial project. However you would have to add a link to our website and state that the icons were created by copticchurch-library.org. In a personal project such an application or website it is fine if you need to use them.
+Credits:
+✜ Diocese of the Southern United States (Website)
+✜ Tony Rizk (User submitted)
 
 
 
@@ -57,5 +53,6 @@ Icons can be used in a commercial project. However you would have to add a link 
 
 
 
-Developed by Noubee
+
+
 ✜Pray for this service

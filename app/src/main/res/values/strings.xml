@@ -94,7 +94,7 @@
     <string name="formatter_month">Month</string>
     <string name="formatter_months">Months</string>
     <string name="save">Save</string>
-    <string name="stages">Time intervals of the session</string>
+    <string name="stages">Time intervals of each session</string>
     <string name="reset_settings">Reset settings.</string>
     <string name="settings_reset">Settings have been reset</string>
     <string name="undo">Undo</string>
@@ -105,7 +105,7 @@
     <string name="error_zero_value">The time period cannot be equal to zero.</string>
 
     <string name="about_teamMembers">A service made to help those learn more about the Coptic Orthodox Church</string>
-    <string name="title_about">Acknowledgements + Software licenses:</string>
+    <string name="title_about">Acknowledgements</string>
     <string name="about_team_headline">The Coptic Orthodox Faith</string>
     <string name="disabled">App shortcut not enabled</string>
     <string name="submitshort">Submit</string>

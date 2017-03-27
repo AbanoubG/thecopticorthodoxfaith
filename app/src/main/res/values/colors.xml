@@ -8,6 +8,8 @@
     <color name="colorStandard">#FFFFFF</color>
     <color name="backgroundEmptyState">#CECECE</color>
     <color name="colorNoDataText">#000000</color>
+    <color name="splash">#973537</color>
+
 
     <color name="colorStage1">#AB47BC</color>
     <color name="colorStage2">#7E57C2</color>

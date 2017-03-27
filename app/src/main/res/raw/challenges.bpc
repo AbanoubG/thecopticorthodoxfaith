@@ -296,6 +296,79 @@
              <answer correct="true" text="Iconostasis" />
           </challenge>
 
+          <challenge question="The term nave comes from the Latin word navies meaning what?   " type="1">
+             <answer correct="true" text="Ship" />
+             <answer correct="false" text="Cross" />
+             <answer correct="false" text="Circle" />
+             <answer correct="false" text="Raised area" />
+          </challenge>
+
+          <challenge question="The domes of the church are often referred to as ________  " type="2">
+             <answer correct="true" text="cupola" />
+             <answer correct="true" text="Cupola" />
+          </challenge>
+
+          <challenge question="The 4 cupolas resemble what?   " type="1">
+             <answer correct="true" text="The four Evangelists" />
+             <answer correct="false" text="The four Incorporeal Creatures" />
+             <answer correct="false" text="The four essential Sacraments" />
+             <answer correct="false" text="None of these" />
+          </challenge>
+
+          <challenge question="The area of the catechumens is called ________   " type="1">
+             <answer correct="true" text="The Narthex" />
+             <answer correct="false" text="The Chancel" />
+             <answer correct="false" text="The Nave" />
+             <answer correct="false" text="The Sancuary" />
+          </challenge>
+
+          <challenge question="This is an elevated platform in which the priest or bishop may preach to the people from  " type="1">
+             <answer correct="true" text="The Ambon" />
+             <answer correct="false" text="The Laver" />
+             <answer correct="false" text="The Canopy" />
+             <answer correct="false" text="The Tribune" />
+          </challenge>
+
+          <challenge question="The perpetual lamp in front of the icon of the bosom of the Father (Niche) represents what?  " type="3">
+             <answer correct="true" text="The perpetual lamp represents the star that appeared to the wise men and guided them to the Lord" />
+          </challenge>
+
+          <challenge question="The special vessels that are used in the services  " type="3">
+             <answer correct="true" text="The Chalice and spoon" />
+             <answer correct="true" text="The Paten and Star" />
+             <answer correct="true" text="The Ark" />
+             <answer correct="true" text="The Gospel and Cross" />
+             <answer correct="true" text="The Censer" />
+             <answer correct="true" text="Lights, lamps, and candles" />
+          </challenge>
+
+          <challenge question="What symbolic meaning does the Ostrich Egg hold in the Coptic Church?  " type="3">
+             <answer correct="true" text="The Ostrich Egg is symbolic of the hope of the resurrection" />
+          </challenge>
+
+           <challenge question="What is the purpose of using lamps in the church despite our services being held in daylight with ambient light?  " type="3">
+             <answer correct="true" text="Lamps remind the worshipper of Christ's transfiguration" />
+             <answer correct="true" text="Lamps remind the worshipper to be the lights of the world" />
+             <answer correct="true" text="The church is a lampstand (Rev. 1:12) " />
+          </challenge>
+
+          <challenge question="What is the order of icons on the right side of the Royal Door?  " type="3">
+             <answer correct="true" text="Icon of our Lord Jesus Christ. Icon of St. John the Baptist. Icon of patron saint of the church. Select icons of martyrs and saints" />
+          </challenge>
+
+          <challenge question="What is the order of icons on the left side of the Royal Door?  " type="3">
+             <answer correct="true" text="Icon of St. Mary. Icon of the Annunciation. Icon of Archangel Michael. Icon of St. Mark the Evangelist. Select icons of famous Apostles" />
+          </challenge>
+
+
+
+
+
+
+
+
+
+
 
 
 

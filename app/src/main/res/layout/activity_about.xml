@@ -53,11 +53,12 @@
                     android:textSize="18sp" />
 
                 <Button
-                    android:text="Questions? Send us an email"
+                    android:id="@+id/sendemail"
+                    style="@style/Widget.AppCompat.Button.Colored"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/sendemail"
-                    android:onClick="process" />
+                    android:onClick="process"
+                    android:text="Contact" />
 
                 <TextView
                     android:layout_width="wrap_content"
