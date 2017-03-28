@@ -232,6 +232,101 @@
             <answer correct="true" text="St. Clement" />
             <answer correct="false" text="St. Polycarp" />
         </challenge>
+
+        <challenge question="The term Ante-Nicene fathers refers to" type="1">
+            <answer correct="false" text="Fathers against the council of Nicaea" />
+            <answer correct="false" text="Fathers after the council of Nicaea" />
+            <answer correct="true" text="Fathers before the council of Nicaea" />
+            <answer correct="false" text="Fathers who support the council of Nicaea" />
+        </challenge>
+
+        <challenge question="The 4 characteristics of a Church father" type="3">
+            <answer correct="true" text="Holy teaching and Doctrine" />
+            <answer correct="true" text="Orthodox church officially accepted " />
+            <answer correct="true" text="Life is a mode for Holiness" />
+            <answer correct="true" text="Year (antiquity)" />
+        </challenge>
+
+        <challenge question="These two are Apostles of St. John" type="1">
+            <answer correct="true" text="Ignatius and Polycarp" />
+            <answer correct="false" text="Origen and Clement" />
+            <answer correct="false" text="Severus and Ephrem" />
+            <answer correct="false" text="Clement and Timothy" />
+        </challenge>
+
+        <challenge question="What does the term Consensus Patrum mean?" type="3">
+            <answer correct="true" text="Studying the vocabulary and terms of each father and not relying on a single father or quote from a single father" />
+        </challenge>
+
+        <challenge question="The heresy of Docetism says that" type="1">
+            <answer correct="true" text="Christ only appeared human and was truly fully spirit" />
+            <answer correct="false" text="Christ was not divine" />
+            <answer correct="false" text="The Holy Spirit engulfed the humanity of Christ" />
+            <answer correct="false" text="The nature of Christ separated whilst performing miracles" />
+        </challenge>
+
+         <challenge question="Two examples of Apostolic Succession are" type="3">
+            <answer correct="true" text="Christ → Apostles → Apostolic Fathers → Patriarchs " />
+            <answer correct="true" text="Lineage of bishops " />
+        </challenge>
+
+        <challenge question="Why is it necessary to study the writings of Tertullian or Origen if they were condemned by many councils and considered heretics?" type="1">
+            <answer correct="true" text="All of these" />
+            <answer correct="false" text="They produced writings and teachings too valuable to exclude" />
+            <answer correct="false" text="Many of their writings are in consensus with others fathers" />
+            <answer correct="false" text="Not all of their teachings is heretical, and provide many valuable teachings and biblical exegesis" />
+        </challenge>
+
+        <challenge question="The term apostolic fathers refers to " type="1">
+            <answer correct="true" text="The Disciples of the Apostles" />
+            <answer correct="false" text="The Apostles of Christ" />
+            <answer correct="false" text="The Apostles of the Church Fathers " />
+            <answer correct="false" text="None of these" />
+        </challenge>
+
+        <challenge question="The six characteristics of the writings of Apostolic Fathers" type="3">
+            <answer correct="true" text="Epistolary " />
+            <answer correct="true" text="Simple " />
+            <answer correct="true" text="Pastoral " />
+            <answer correct="true" text="Eschatological " />
+            <answer correct="true" text="Ecclesiastical " />
+            <answer correct="true" text="Spirit-filled " />
+        </challenge>
+
+        <challenge question="This Apostolic father was a fellow-worker with St. Paul" type="1">
+            <answer correct="true" text="St. Clement of Rome " />
+            <answer correct="false" text="St. Ignatius " />
+            <answer correct="false" text="St. Polycarp " />
+            <answer correct="false" text="St. Clement of Alexandria " />
+        </challenge>
+
+
+        <challenge question="This Apostolic father used the phoenix as an emblem of the Resurrection and spoke about how all blessings are given through Christ" type="1">
+            <answer correct="true" text="St. Clement of Rome " />
+            <answer correct="false" text="St. Ephrem " />
+            <answer correct="false" text="St. Athanasius " />
+            <answer correct="false" text="St. Cyril I" />
+        </challenge>
+
+        <challenge question="This early church father speaks about church life and teaching, eschatology and also fights Docetism " type="1">
+            <answer correct="true" text="St. Ignatius of Antioch " />
+            <answer correct="false" text="St. Ephrem " />
+            <answer correct="false" text="St. Athanasius " />
+            <answer correct="false" text="St. Polycarp" />
+        </challenge>
+
+
+
+
+
+
+
+
+
+
+
+
+
     </category>
 
     <category description="Test your knowledge of the liturgics of the Church" image="@drawable/gray" title="Liturgical Studies">
