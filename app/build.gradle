@@ -53,8 +53,8 @@ android {
         applicationId "org.copticchurch.library.discoverorthodoxy"
         minSdkVersion 15
         targetSdkVersion 25
-        versionCode 7
-        versionName "2.3"
+        versionCode 8
+        versionName "2.4"
         multiDexEnabled = true
         manifestPlaceholders = [manifestApplicationId: "${applicationId}",
                                 onesignal_app_id: "c71ad105-ca7d-4d61-ac56-dfed33169a96",

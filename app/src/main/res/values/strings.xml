@@ -111,4 +111,6 @@
     <string name="submitshort">Submit</string>
     <string name="submitlong">Submit Questions</string>
     <string name="stats">Stats</string>
+    <string name="whats_new">Whats New</string>
+    <string name="dialogue_message">Version 2.4 (03/28/17)\n\n - Added additional Patristic questions\n - Added new category: Liturgical Studies\n - Added App Shortcuts    </string>
 </resources>

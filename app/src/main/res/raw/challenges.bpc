@@ -315,7 +315,12 @@
             <answer correct="false" text="St. Polycarp" />
         </challenge>
 
-
+       <challenge question="This early Apostolic father writes a letter to Diognetius, explaining the Christian life " type="1">
+            <answer correct="false" text="Tertullian " />
+            <answer correct="false" text="St. Hippolytus of Rome " />
+            <answer correct="false" text="St. Irenaus of Lyons " />
+            <answer correct="true" text="St. Polycarp" />
+        </challenge>
 
 
 

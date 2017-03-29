@@ -62,6 +62,9 @@ public class MainActivity extends BrainPhaserActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
+
         OneSignal.startInit(this)
                 .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
                 .init();
@@ -106,7 +109,7 @@ public class MainActivity extends BrainPhaserActivity {
 
 
         if (BuildConfig.DEBUG) {
-            MenuItem item = menu.add("Import BPC");
+            MenuItem item = menu.add("Import");
             item.setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
         }
 
